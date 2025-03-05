@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    overflow: hidden;
+
+}
+input {
+    background-color: transparent;
+    color: limegreen;
+    border: 1px solid aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title {
+    color: aliceblue;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.liste {
+    border: 1px solid aliceblue;
+    width: 25%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: Nicht;
+}
+#l1 {
+    color: aqua;
+}
+#l2 {
+    color: red;
+}
+.text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 20px;
+    text-shadow:
+    0px 0px 15px aliceblue,
+    0px 0px 25px aliceblue,
+    0px 0px 50px aliceblue,
+    0px 0px 100px aliceblue;
+}
+a {
+    color: crimson;
+    position: absolute;
+    top: 1%;
+    left: 96%;
+}
