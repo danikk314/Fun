@@ -89,8 +89,10 @@ function clicken(element) {
 function Xwins() {
     document.getElementById("text").innerHTML = "X-gewonnen";
     document.getElementById("text").style.color = "red";
+    document.getElementById("text").style.opacity = 1;
 }
 function Owins() {
     document.getElementById("text").innerHTML = "0-gewonnen";
     document.getElementById("text").style.color = "blue";
+    document.getElementById("text").style.opacity = 1;
 }

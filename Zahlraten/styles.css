@@ -47,9 +47,14 @@ input {
     0px 0px 50px aliceblue,
     0px 0px 100px aliceblue;
 }
-a {
-    color: crimson;
+#reset {
+    background: linear-gradient(135deg, #ff0000, #0000ff);
+    width: auto;
+    height: auto;
     position: absolute;
-    top: 1%;
-    left: 96%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: azure;
+    opacity: 0;
 }
