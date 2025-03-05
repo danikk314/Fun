@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    background-color: #1f1f1f;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+body {
+    background-color: white;
+    color: black;
+}
+#ListContainer {
+    background-color: #f0f0f0;
+}
+  
+  /* Dark Mode */
+body.darkmode {
+    background-color: #1f1f1f;
+    color: white;
+}
+#ListContainer.darkmode {
+    background-color: #333;
+    color: white;
+}
+
+.myChart {
+    width: 80%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#ListContainer {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+}
+#addButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #336dbc;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 3px;
+}
+#List {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ListSector {
+    width: 100%;
+    flex: 1;
+    max-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ListItem {
+    width: 33%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin-left: 0;
+}
+#ToolBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#deleteButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: aliceblue;
+    display: flex;
+    margin: 3px;
+    text-align: center;
+    justify-content: center;
+    line-height: 12px;
+    font-size: large;
+}
+#chart-type {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

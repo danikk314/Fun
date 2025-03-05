@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donutdiagramm</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="ListContainer">
+        <div id="ToolBox">
+            <Button id="addButton" onclick="addtolist()">+</Button>
+            <button id="toggle-theme" style="background-color: transparent; border: 0;">🌙</button>
+            <Button id="deleteButton" onclick="deletefromlist()">-</Button>
+        </div>
+        <div id="List"></div>
+    </div>
+    
+    <canvas class="myChart" id="myChart0" width="600" height="500"></canvas>
+
+    <select id="chart-type" onchange="changeChartType(this)">
+        <option value="line">Liniendiagramm</option>
+        <option value="bar">Balkendiagramm</option>
+        <option value="radar">Radar-Diagramm</option>
+        <option value="pie">Kreisdiagramm</option>
+        <option value="doughnut">Donut-Diagramm</option>
+        <option value="polarArea">Polardiagramm</option>
+        <option value="bubble">Blasendiagramm</option>
+        <option value="scatter">Streudiagramm</option>
+      </select>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
