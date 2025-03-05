@@ -6,11 +6,11 @@ body {
     background-color: #000;
     overflow: hidden;
     border: #111 solid 1px;
-    margin: 0px;
-    padding: 0px;
-}
-
-.UltraButton {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .UltraButton {
     position: relative;
     width: 200px;
     height: 50px;
@@ -25,13 +25,14 @@ body {
     cursor: pointer;
     z-index: 0;
     border-radius: 10px;
-}
-.UltraButton:before {
+  }
+  
+  .UltraButton:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
     top: -2px;
-    left:-2px;
+    left: -2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
@@ -39,22 +40,23 @@ body {
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
     opacity: 0;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
-}
-.UltraButton:active {
-    color: #000
-}
-
-.UltraButton:active:after {
-    background: transparent;
-}
-
-.UltraButton:hover:before {
+  }
+  
+  .UltraButton:hover:before {
     opacity: 1;
-}
-
-.UltraButton:after {
+  }
+  
+  .UltraButton:active {
+    color: #000;
+  }
+  
+  .UltraButton:active:after {
+    background: transparent;
+  }
+  
+  .UltraButton:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -64,46 +66,55 @@ body {
     left: 0;
     top: 0;
     border-radius: 10px;
-}
-#MainContainer {
+  }
+  
+  #MainContainer {
     width: 80%;
     height: 80%;
-    background-color: red;
+    background-color: transparent;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-}
-.bar {
+  }
+  
+  .bar {
     width: 98%;
     height: 20%;
-    border: transparent solid 0px;
+    border: 0;
     border-radius: 25px;
     background-color: aliceblue;
     margin: 10px;
-}
-.Item {
+    overflow: hidden;
+  }
+  
+  .Item {
     flex: 1;
-    background-color: blue;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1px;
-}
-.Loadingbar {
-    background-color: #48ff00;
-    width: 0px;
-    animation: Loading 5s ease;
-    animation-iteration-count: 0;
-}
-@keyframes glowing {
+  }
+  
+  .loadingbar {
+    position: relative;
+    background-color: limegreen;
+    width: 0;
+    height: 100%;
+    /* Keine Standard-Animation, da diese über JavaScript gestartet wird */
+  }
+  
+  @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
-}
-@keyframes loading {
+  }
+  
+  @keyframes loading {
     0% { width: 0%; }
     100% { width: 100%; }
-}
+  }
+  
