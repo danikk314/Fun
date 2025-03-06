@@ -12,9 +12,10 @@ body {
     height: 50%;
     background-color: black;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 #main:before {
     content: '';
