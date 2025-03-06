@@ -95,3 +95,9 @@ body.darkmode {
     right: 0;
     top: 0;
 }
+input {
+    border: 0;
+    border-radius: 0;
+    magrin: 0;
+    padding: 0;
+}
