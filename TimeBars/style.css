@@ -49,7 +49,7 @@ body {
 
 .progressBar {
     height: 100%;
-    background-color: #00ffc0;
+    background-color: #05ffa3;
     transition: width 0.5s;
 }
 #sprogressBar {
