@@ -21,6 +21,10 @@ function updateClock() {
     document.getElementById('countdownM').innerHTML = minutesLeft + ' minutes left';
     const secondsLeft = 60 - seconds;
     document.getElementById('countdownS').innerHTML = secondsLeft + ' seconds left';
+
+    //SchulTimer
+    const aS = (hour*60*60)+(minutes*60)+seconds;
+    
 }
 
 setInterval(updateClock, 1000);
