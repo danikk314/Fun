@@ -75,11 +75,11 @@ function updateClock() {
     let schoolLeftm = Rest % 60;
 
     if (schoolLefth > 0) {
-        document.getElementById('countdownSchool').innerHTML = schoolLefth + ':' + schoolLeftm + ':' + secondsLeft + ' Left';
+        document.getElementById('countdownSchool').innerHTML = 'in ' + schoolLefth + ':' + schoolLeftm + ':' + secondsLeft;
     }
     else if (schoolLeftm > 0) {
-        document.getElementById('countdownSchool').innerHTML = schoolLeftm + ':' + secondsLeft + ' Left';
-    } else {document.getElementById('countdownSchool').innerHTML = secondsLeft + ' Left';}
+        document.getElementById('countdownSchool').innerHTML = 'in' + schoolLeftm + ':' + secondsLeft;
+    } else {document.getElementById('countdownSchool').innerHTML = 'in ' + secondsLeft;}
 
     if (hI == 0) {
         document.getElementById('SchoolTitle').innerHTML = 'Neuer Schultag';
