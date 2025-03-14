@@ -78,7 +78,7 @@ function updateClock() {
         document.getElementById('countdownSchool').innerHTML = 'in ' + schoolLefth + ':' + schoolLeftm + ':' + secondsLeft;
     }
     else if (schoolLeftm > 0) {
-        document.getElementById('countdownSchool').innerHTML = 'in' + schoolLeftm + ':' + secondsLeft;
+        document.getElementById('countdownSchool').innerHTML = 'in ' + schoolLeftm + ':' + secondsLeft;
     } else {document.getElementById('countdownSchool').innerHTML = 'in ' + secondsLeft;}
 
     if (hI == 0) {
