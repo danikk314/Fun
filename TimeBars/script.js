@@ -72,7 +72,7 @@ function updateClock() {
     document.getElementById('SchoolprogressBar').style.width = schoolprogressPercent + '%';
 
     let schoolLefth = Math.floor(Rest/60);
-    let schoolLeftm = Rest % 60;
+    let schoolLeftm = (Rest % 60)-1;
 
     if (schoolLefth > 0) {
         document.getElementById('countdownSchool').innerHTML = 'in ' + schoolLefth + ':' + schoolLeftm + ':' + secondsLeft;
