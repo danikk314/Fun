@@ -1,0 +1,12 @@
+.Stone, .Scissors, .Paper {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+  
+  .Stone { background-image: url(Images/stone.png); }
+  .Scissors { background-image: url(Images/scissors.png); }
+  .Paper { background-image: url(Images/paper.png); }
+  
