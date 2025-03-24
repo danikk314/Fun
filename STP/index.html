@@ -9,7 +9,14 @@
   <label for="StartValue">Anzahl pro Typ:</label>
   <input type="number" id="StartValue" value="3" min="1">
   <button id="startButton">Spiel starten</button>
-
+  <select name="textures" id="inputTextures" onchange="changeTextures(this)">
+    <option value="Normal">Normal</option>
+    <option value="Minecraft">Minecraft</option>
+  </select>
+  <select name="modes" id="inputmode" onchange="changeMode(this)">
+    <option value="1">Delete</option>
+    <option value="2">Change</option>
+  </select>
   <script src="script.js"></script>
 </body>
 </html>

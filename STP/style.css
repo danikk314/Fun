@@ -6,7 +6,7 @@
     background-position: center;
 }
   
-  .Stone { background-image: url(Images/stone.png); }
-  .Scissors { background-image: url(Images/scissors.png); }
-  .Paper { background-image: url(Images/paper.png); }
+  .Stone { background-image: var(--stone); }
+  .Scissors { background-image: var(--scissors); }
+  .Paper { background-image: var(--paper); }
   
