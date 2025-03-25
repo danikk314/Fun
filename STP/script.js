@@ -1,6 +1,6 @@
 const screenWidth = window.innerWidth;
 const screenHeight = window.innerHeight;
-const objectSize = 50; // Breite/Höhe der Objekte
+const objectSize = 50;
 let gameIsRunning = false;
 let Mode = "1";
 
