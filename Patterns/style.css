@@ -23,6 +23,9 @@ body {
     height: flex;
     background-color: aliceblue;
     margin: 10px;
-    transition: 1s;
+    transition: 0.5s;
     border-radius: 20px;
+}
+.flipped {
+    transform: rotateY(180deg);
 }
