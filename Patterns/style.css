@@ -15,14 +15,13 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1px;
+    gap: 8px;
 }
 .Feld {
     position: relative;
-    width: 15%;
+    width: 16%;
     height: flex;
     background-color: aliceblue;
-    margin: 10px;
     transition: 0.5s;
     border-radius: 20px;
 }
