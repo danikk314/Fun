@@ -14,7 +14,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 8px;
+    gap: 0.5%;
 }
 .Feld {
     padding: 20px;
@@ -22,7 +22,7 @@ body {
     background-color: aliceblue;
     transition: 0.5s;
     border-radius: 20px;
-    margin: 10px;
+    margin: 2%;
 }
 .flipped {
     transform: rotateY(180deg);
