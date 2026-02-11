@@ -41,8 +41,8 @@ function updateClock() {
         { stunde: 13, minute: 10 },
         { stunde: 13, minute: 20 },
         { stunde: 14, minute: 5 },
-        { stunde: 14, minute: 10},
-        { stunde: 14, minute: 55},
+        { stunde: 14, minute: 10 },
+        { stunde: 14, minute: 55 },
         { stunde: 24, minute: 0 }
     ];
     function zeitInMinuten(zeit) {
